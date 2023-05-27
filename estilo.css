@@ -1,0 +1,66 @@
+body {
+    background-color: blanchedalmond;
+    font-size: 50px;
+    /* position: relative; */
+}
+
+header {
+    background-color: aqua;
+    position: relative;
+    left: 0;
+    height: 57px;
+    width: 100%;
+}
+
+header div,
+header div img {
+    background-color: blue;
+    position: absolute;
+    /* display: inline-block; */
+    height: 57px;
+    width: 61px;
+}
+
+header nav {
+    background-color: #5f9ea0;
+    position: absolute;
+    /* display: inline-block; */
+    left: 58px;
+    height: 57px;
+    width: 96.8%;
+}
+
+main {
+    background-color: #ffa500;
+    /* margin: auto; */
+    position: relative;
+    height: 800px;
+    width: 100%;
+}
+
+main article {
+    background-color: #ff4500;
+    position: absolute;
+    height: 50%;
+    width: 80%;
+}
+
+main section {
+    background-color: #ff6347;
+    position: absolute;
+    top: 50%;
+    height: 50%;
+    width: 80%;
+}
+
+main aside {
+    background-color: #ff7f50;
+    position: absolute;
+    right: 0;
+    width: 20%;
+    height: 100%;
+}
+
+footer {
+    background-color: #909497;
+}
